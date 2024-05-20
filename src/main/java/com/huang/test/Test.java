@@ -8,4 +8,8 @@ public class Test {
 
     @Value("${rabbitmq.host}")
     private String host;
+
+    public void setHost(String host) {
+        this.host = host;
+    }
 }
